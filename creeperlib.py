@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from myproxy import getProxyList
 import socket
 import time
 import os
@@ -98,6 +99,7 @@ class Creeper:
         self.url = url
             
 
-a = HttpRequest('www.baidu.com','GET',})
+a = HttpRequest('www.baidu.com','GET',)
 #a.saveMessage('data.txt')
 print a.message()
+print getProxyList()
